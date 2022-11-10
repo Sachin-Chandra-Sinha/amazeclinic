@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 body{
@@ -10,15 +11,15 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    height: 150vh;
+    margin-top: 10px;
+    
     
 }
 
 .container{
-    max-width: 3840px;
-    
+    max-width: 3840px;   
 }
-
-
 
 .navbar{
     height:100px ;
@@ -35,6 +36,10 @@ body{
     padding: 0 30px;
 }
 
+.heading{
+    display: flex;
+    align-items: center;
+}
 .nav{
     display: flex;
     justify-content: center;
@@ -57,10 +62,10 @@ a{
 .header
 {
     min-height: 400px;
-    border: 1px solid black;
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
+    margin-top:10px ;
 }
 .header h1{
     font-size: 3rem;
@@ -75,4 +80,57 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.boxes-1{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.boxes-1 .container{
+    display: flex;  
+
+}
+
+.boxes-1 .container .box{
+    background-color:  #F16692;
+    color: white;
+    border: solid 2px #F58220;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    margin: 20px 10px;
+    border-radius: 10px;    
+}
+
+.boxes-2{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.boxes-2 h2{
+    margin-bottom: 15px;
+}
+.boxes-2 .container{
+    display: flex;
+}
+
+.boxes-2 .container .box{
+    background-color:  #00929E;
+    color: white;
+    border: solid 2px #F58220;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    margin: 20px 10px;
+    border-radius: 10px;    
+}
+
+.boxes-2 .container .box ul{
+    list-style-type: none;
 }
