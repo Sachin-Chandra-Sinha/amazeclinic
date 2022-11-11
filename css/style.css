@@ -120,7 +120,7 @@ a:hover{
     flex-direction: column;
     border: 2px solid black;
     border-radius: 10px;
-    align-items: center;
+    /* align-items: center; */
 
 }
 .boxes-2 h2{
@@ -158,14 +158,41 @@ a:hover{
         text-align: center;
     }
 
+    .heading h1{
+        font-size: 1rem;
+    }
+
+    a{
+        font-size: 10px;
+    }
+
+    .header h1{
+        font-size: 1.5rem;
+        line-height: 1.8;
+    }
+
+    .header p{
+        /* line-height: 1.5; */
+        margin-bottom: 10px;
+    }
+
+    /* .header img{
+        max-width: 300px;
+
+    } */
+
     .boxes-1 .container{
         flex-direction: column;
-        /* text-align: center; */
 
+    }
+
+    .boxes-1 h2{
+        font-size: 1.2rem;
+        line-height: 1.8;
     }
     .boxes-2 .container{
         flex-direction: column;
-        /* text-align: center; */
-
     }
+
+
 }
