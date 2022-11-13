@@ -281,11 +281,11 @@ a:hover{
 @media(max-width:400px){
 
     .heading h1{
-        font-size:7.5px;
+        font-size:7px;
     }
 
     .nav a{
-        font-size: 6.5px;
+        font-size: 6px;
     }
 
     .header h1{
@@ -298,11 +298,11 @@ a:hover{
     }
 
     .boxes-1 .container h2{
-        font-size:0.85rem;
+        font-size:0.9rem;
     }
     .boxes-1 .container .box ul li{
-        font-size: 0.7rem;
-        line-height: 1.7;
+        font-size: 0.8rem;
+        line-height: 1.8;
     }
     .boxes-2  .container .box h2{
         font-size: 1rem;
