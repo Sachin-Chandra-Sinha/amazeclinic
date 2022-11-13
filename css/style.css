@@ -280,12 +280,17 @@ a:hover{
 
 @media(max-width:400px){
 
+    .navbar .container{
+        padding: 2px;
+        margin: 2px;
+    }
+
     .heading h1{
-        font-size:7px;
+        font-size:8px;
     }
 
     .nav a{
-        font-size: 6px;
+        font-size: 7px;
     }
 
     .header h1{
