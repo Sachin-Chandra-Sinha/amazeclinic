@@ -69,6 +69,9 @@ a:hover{
     position: relative;
     top:-5px;
 }
+.toggle{
+    display: none;
+}
 .header
 {
     min-height: 400px;
@@ -89,7 +92,7 @@ a:hover{
 
     display: flex;
     align-items: center;
-    /* justify-content: space-between;  */
+    justify-content: space-between; 
 }
 .boxes-1{
     max-width: 1100px;
@@ -120,7 +123,7 @@ a:hover{
     flex-direction: column;
     border: 2px solid black;
     border-radius: 10px;
-    /* align-items: center; */
+    align-items: center;
 
 }
 .boxes-2 h2{
@@ -183,6 +186,7 @@ a:hover{
 
     .boxes-1 .container{
         flex-direction: column;
+        text-align: center;
 
     }
 
@@ -192,7 +196,87 @@ a:hover{
     }
     .boxes-2 .container{
         flex-direction: column;
+        text-align: center;
     }
 
 
 }
+
+@media(max-width:500px){
+
+    navbar .container{
+        align-items: end;
+    }
+
+    .heading h1{
+        font-size: 8px;
+    }
+
+    .nav{
+        display: block;
+    }
+
+
+    a{
+        font-size: 8px;
+    }
+
+    .header h1{
+        font-size: 1.5rem;
+
+    }
+
+    .header p{
+        font-size: 0.9rem;
+        line-height: 1.5;
+        
+    }
+
+    .header img{
+        margin: 10px 0;
+        width: 90%;
+        height: 90%;
+
+    }
+
+    .header img{
+        margin-bottom: 10px;
+    }
+
+    .boxes-1 .container{
+        text-align: start;
+    }
+
+    .boxes-1 .container h2{
+        font-size: 1rem;
+
+    }
+
+    .boxes-1 .container .box ul li{
+        font-size: 0.9rem;
+    }
+    
+
+
+    .boxes-2 .container{
+        text-align: start;
+    }
+
+    .boxes-2 h2{
+        font-size: 1.2rem;
+    }
+
+    .boxes-2  .container .box h2{
+        font-size: 1.1rem;
+    }
+
+    .boxes-2  .container .box h3{
+        font-size: 1rem;
+    }
+
+    .boxes-2  .container .box ul li{
+        font-size: 0.9rem;
+    }
+    
+
+} 
